@@ -1,0 +1,11 @@
+(Une requête contient uniquement les colonnes "name", "poster" et "comment")
+INSERT INT0 movie (name, poster, comment) VALUES ('interstellar', 'interstellar.jpeg', 'that is a great movie for sure');
+
+(Une requête ne contient pas de noms de colonnes)
+INSERT INTO movie VALUES (null, 'interstellar', 'interstellar.jpeg', 'that is a great movie for sure');
+
+(Une requête contient 3 valeurs à ajouter)
+INSERT INTO movie (name, poster, comment) VALUES ('simpson', 'simpson.jpeg', 'that is not a great movie'), ('simpson', 'simpson.jpeg', 'that is not a great movie'), ('simpson', 'simpson.jpeg', 'that is not a great movie');
+
+(Une requête contient uniquement la colonne "name")
+INSERT INTO movie (name) VALUES ('Fatal');
